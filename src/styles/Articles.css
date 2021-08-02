@@ -1,0 +1,7 @@
+.a-pic {
+  width: 250px !important;
+  height: 150px !important;
+  object-fit: fill;
+  border-radius: 5% !important;
+  opacity: 1;
+}

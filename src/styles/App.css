@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Gotham Rounded", sans-serif;
+  font-weight: 350;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+body {
+  background-color: #010606;
+}
+
+/*Annoying af xdddddd*/
+
+@media screen and (max-width: 1024px) {
+  #peak-guy {
+    margin-top: -45px;
+  }
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #25d366 #010606;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #1da851;
+}
+
+*::-webkit-scrollbar-track {
+  background: #010606;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #25d366;
+  border-radius: 7px;
+  border: 0px none #ffffff;
+}
+
+#canvas {
+  position: absolute;
+  z-index: 10;
+}
